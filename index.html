@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href = "css/index.css" rel="stylesheet">
     <title>Odin Project Learning</title>
 </head>
 <body>
+    <div id = "card">
+        <div id = "cardcontent">
+    <h1>SignUp form</h1>
+<form action="" method="POST">
+    <div class="attributes">
+    Name : <input type ="text"  placeholder="name" required/></div>
+    <div class="attributes">Email : <input type = "email" id="email" placeholder="email" required/></div>
+    <div class="attributes"> Gender: 
+    <label for = "male">Male</label>
+    <input type = "radio" id = "male" value = "male"/>      
+    <label for = "female">Female</label>
+    <input type = "radio" id = "female" value = "female"/></div>
+    
+    <div class="attributes"> Hobby:<label for = "hobby-movie">Movies</label>
+    <input type="checkbox" id="hobby-movie" value="movies"/>
+    <label for = "hobby-sports">Sports</label>
+    <input type="checkbox" id="hobby-sports" value="sports"/>
+    <label for = "hobby-garden">Gardening</label>
+    <input type="checkbox" id="hobby-garden" value="Gardening"/></div>
+    <div class="attributes">
+        Tell me about yourself ?
+        <textarea rows="7" cols="40">
 
+        </textarea>
+    </div>
+    <div class="attributes">
+        <input type="submit" value="submit" style="padding: 10px;font-size: large;margin-left: 40%;"/>
+    </div>
+</div>
+</div>
+</form>
 </body>
 </html>

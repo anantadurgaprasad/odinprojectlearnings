@@ -1,0 +1,33 @@
+input{
+ /* display : block; */
+ line-height: 5px;
+ margin-bottom: 5px;
+    
+}
+ 
+h1{
+   
+    font-size: larger;
+    margin-bottom: 1em;
+    position: relative;
+    left : 30%;
+
+
+
+}
+
+#card{
+    width: 400px;
+    height: 500px;
+    margin: 10% 50% 0% 50%;
+    border:rgba(45, 45, 45, 0.5) solid 2px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23) ;
+}
+#cardcontent{
+    padding: 1em;
+}
+.attributes{
+    margin: 1rem;
+    
+}
