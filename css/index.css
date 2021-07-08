@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    background-color: hsla(141, 100%, 35%, 1);
+    color: white;
+}
+div{
+    font-size: 1.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:hsla(158, 100%, 33%, 1);
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    float: right;
+}
+strong{
+    color: rebeccapurple;
+}
